@@ -12,6 +12,8 @@ conda install -c bioconda picard
 
 # Usuage(Command line)
 
+> Example
+
 time gatk mutect2 -R ref.fasta -I VCA-test.bam -O VCA-test-mutect2.vcf.gz
 
 
